@@ -32,13 +32,13 @@ library(USAboundaries)
 twitter_token <- create_token( 
   app = "HappinessTimeTest",
   consumer_key = "TSnEtnWm6eftruxQoCCvcIDTs",
-  consumer_secret = "cuNZEqNhA8m4IJ0SWfJikXFRQMbKPtpYTeyrEGSF3968VUZtMF"
+  consumer_secret = "secrets"
 )
 
 api_key = 'TSnEtnWm6eftruxQoCCvcIDTs'
 api_secret = 'cuNZEqNhA8m4IJ0SWfJikXFRQMbKPtpYTeyrEGSF3968VUZtMF'
 access_token = '598079173-WAOpBdJVyvNVyGO6q5M3jekHyiwYZ1eWWJmZGQUA'
-access_token_secret = 'NFWgRXpfElrKBZ4gOsxgTXSlpmW9SLyQFfTALSWywfTMC'
+access_token_secret = 'secrets'
 
 setup_twitter_oauth(api_key,api_secret,access_token,access_token_secret)
 # and make sure the Callback URL equal : http://127.0.0.1:1410/ says internet.
