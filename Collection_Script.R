@@ -36,7 +36,7 @@ twitter_token <- create_token(
 )
 
 api_key = 'TSnEtnWm6eftruxQoCCvcIDTs'
-api_secret = 'cuNZEqNhA8m4IJ0SWfJikXFRQMbKPtpYTeyrEGSF3968VUZtMF'
+api_secret = 'secretive secrets'
 access_token = '598079173-WAOpBdJVyvNVyGO6q5M3jekHyiwYZ1eWWJmZGQUA'
 access_token_secret = 'secrets'
 
