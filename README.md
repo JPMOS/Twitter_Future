@@ -22,6 +22,10 @@ The R scipt and the Twitter Token were then exported to the remote server. The R
 
 Using the Rbatch command to run the script, a command called (nohup.out) will continue to run the script after closing the server session. It is important to remember to close the access to the remote access server with (end) as there could be dissruptions if you terminate the access via any other method. 
 
+From there once the data has been gathered you can easily transferred back into your own personal machine either via command line controls or a file transfer system. 
+
+Then each section of the tweets will be concatenated together for ease of analysis. 
+
 
 
 
