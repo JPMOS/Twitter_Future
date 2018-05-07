@@ -1,7 +1,7 @@
 # Twitter_Future
 ## Future Orientation Tweets Replication Guide.
 
-#### Packages
+#### Packages Needed
 ``` r
 # R twitter APIs
 library(rtweet)
