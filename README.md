@@ -118,7 +118,7 @@ To run this script continuously, in the background, without interruption, our be
 ``` linux
 nohup Rscript tweetcollection.R & 
 ```
-The ampersand does something important, but I don't remember quite what at the moment. You need to have it. It's also imporant to disconnect from your server by typing "exit", It's a quirk of the nohup command. There are many other ways, some of them more robust. This is addmittedly the quick and dirty way. 
+The ampersand submits the R job and returns the user to the OS shell. If you forget the amersand, you'll be stuck looking at the previous command until the R job finishes. It's also imporant to disconnect from your server by typing "exit", It's a quirk of the nohup command. There are many other ways, some of them more robust. This is addmittedly the quick and dirty way. 
 
 
 
